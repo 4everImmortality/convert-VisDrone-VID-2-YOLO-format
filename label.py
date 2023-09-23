@@ -8,7 +8,7 @@ f_test = open('text.txt', 'w')
 f_valid = open('valid.txt', 'w')
 
 tmp = os.getcwd()
-tmp = 'VisDrone2019-VID-YOLOv7/'
+tmp = '/VisDrone2019-VID-YOLOv7/'
 dirpath = ['train', 'test-dev', 'val']
 list_dir = ['images', 'labels']
 train_list = []
